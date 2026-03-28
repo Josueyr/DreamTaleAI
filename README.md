@@ -70,9 +70,7 @@ Edita el archivo `src/DreamTaleAI.Api/appsettings.json` y coloca tu API key:
 }
 ```
 
-> ⚠️ **Importante:** No subas tu API key a GitHub. El archivo `appsettings.json` ya está en `.gitignore` para protegerla. Si deseas compartir el proyecto, usa variables de entorno o el sistema de [User Secrets de .NET](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets).
-
-Para probar sin API key, cambia `"UseMocks": true`.
+> ⚠️ **Importante:** Para probar sin API key, cambia `"UseMocks": true`.
 
 ---
 
