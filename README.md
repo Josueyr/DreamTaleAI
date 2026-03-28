@@ -110,7 +110,6 @@ Ir a `http://localhost:5173` en el navegador.
 | POST | `/api/drawing/recognize-character` | Reconoce personaje dibujado |
 | POST | `/api/story/generate` | Genera cuento completo con imágenes |
 | GET | `/api/images/placeholder` | Imagen SVG placeholder |
-| GET | `/api/tts/synthesize` | Info para TTS del navegador |
 
 ---
 
