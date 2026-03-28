@@ -6,10 +6,9 @@ El niño dibuja su edad y un personaje, elige una emoción, y la app genera un c
 
 ---
 
-## Demo
+## Imágenes
 
-<!-- Pega aquí el enlace o embed de tu video de demo -->
-> 📹 Video demo próximamente
+<img width="581" height="478" alt="image" src="https://github.com/user-attachments/assets/be2b51c8-532d-45e0-92cb-3da0ad60baaf" />
 
 ---
 
