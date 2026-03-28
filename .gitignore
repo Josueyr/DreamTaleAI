@@ -1,0 +1,26 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.DotSettings.user
+
+# User Secrets (API keys - NUNCA subir)
+**/secrets.json
+**/appsettings.Development.json
+
+# Node / React
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

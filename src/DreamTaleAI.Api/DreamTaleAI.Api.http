@@ -1,0 +1,36 @@
+@DreamTaleAI.Api_HostAddress = http://localhost:5000
+
+POST {{DreamTaleAI.Api_HostAddress}}/api/drawing/recognize-age
+Content-Type: application/json
+
+{
+  "imageBase64": "data:image/png;base64,iVBORw0KGgo="
+}
+
+###
+
+POST {{DreamTaleAI.Api_HostAddress}}/api/drawing/recognize-character
+Content-Type: application/json
+
+{
+  "imageBase64": "data:image/png;base64,iVBORw0KGgo="
+}
+
+###
+
+POST {{DreamTaleAI.Api_HostAddress}}/api/story/generate
+Content-Type: application/json
+
+{
+  "age": 7,
+  "character": "dragon",
+  "emotion": "feliz"
+}
+
+###
+
+GET {{DreamTaleAI.Api_HostAddress}}/api/images/placeholder?page=1
+
+###
+
+GET {{DreamTaleAI.Api_HostAddress}}/api/tts/synthesize?text=Hola%20mundo&lang=es-ES
