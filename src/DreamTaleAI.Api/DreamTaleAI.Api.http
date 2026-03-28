@@ -31,6 +31,3 @@ Content-Type: application/json
 
 GET {{DreamTaleAI.Api_HostAddress}}/api/images/placeholder?page=1
 
-###
-
-GET {{DreamTaleAI.Api_HostAddress}}/api/tts/synthesize?text=Hola%20mundo&lang=es-ES

@@ -2,7 +2,7 @@
 
 Aplicación web infantil para crear cuentos personalizados mediante Inteligencia Artificial.
 
-El niño dibuja su edad y un personaje, elige una emoción, y la app genera un cuento interactivo con imágenes ilustradas y narración por voz.
+El niño dibuja su edad y un personaje, elige una emoción, y la app genera un cuento interactivo con imágenes ilustradas.
 
 ---
 
@@ -18,7 +18,7 @@ El niño dibuja su edad y un personaje, elige una emoción, y la app genera un c
 2. **Dibujar edad** — El niño dibuja un número en el canvas
 3. **Dibujar personaje** — Dibuja un animal, robot, dragón, lo que quiera
 4. **Elegir emoción** — Selecciona cómo se siente el personaje
-5. **Cuento generado** — Libro interactivo con texto, imágenes generadas por IA y narración por voz
+5. **Cuento generado** — Libro interactivo con texto e imágenes generadas por IA
 
 ---
 
@@ -41,7 +41,6 @@ DreamTaleAI/
 | Reconocer personaje dibujado | Gemini 2.5 Flash (Vision) |
 | Generar cuento | Gemini 2.5 Flash |
 | Generar imágenes por página | Imagen 4 |
-| Narración | Web Speech API (navegador) |
 
 ---
 
@@ -123,7 +122,6 @@ Ir a `http://localhost:5173` en el navegador.
 **Frontend**
 - React 18 + TypeScript
 - Vite
-- Web Speech API (narración)
 
 ---
 

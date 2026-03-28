@@ -85,8 +85,7 @@ Responde ÚNICAMENTE con JSON válido sin markdown:
             {
                 PageNumber = pageNumber,
                 Text = page.GetProperty("text").GetString() ?? "",
-                ImageUrl = $"/api/images/placeholder?page={pageNumber}",
-                AudioUrl = ""
+                ImageUrl = $"/api/images/placeholder?page={pageNumber}"
             });
         }
 
@@ -134,10 +133,10 @@ Responde ÚNICAMENTE con JSON válido sin markdown:
         Title = $"La aventura de {character}",
         Pages = new List<StoryPage>
         {
-            new() { PageNumber = 1, Text = $"Había una vez un {character} de {age} años que se sentía muy {emotion}.", ImageUrl = "/api/images/placeholder?page=1", AudioUrl = "" },
-            new() { PageNumber = 2, Text = $"El {character} decidió emprender una gran aventura.", ImageUrl = "/api/images/placeholder?page=2", AudioUrl = "" },
-            new() { PageNumber = 3, Text = $"En el camino encontró muchos amigos maravillosos.", ImageUrl = "/api/images/placeholder?page=3", AudioUrl = "" },
-            new() { PageNumber = 4, Text = $"Al final, el {character} aprendió que la amistad lo es todo. ¡Fin!", ImageUrl = "/api/images/placeholder?page=4", AudioUrl = "" }
+            new() { PageNumber = 1, Text = $"Había una vez un {character} de {age} años que se sentía muy {emotion}.", ImageUrl = "/api/images/placeholder?page=1" },
+            new() { PageNumber = 2, Text = $"El {character} decidió emprender una gran aventura.", ImageUrl = "/api/images/placeholder?page=2" },
+            new() { PageNumber = 3, Text = $"En el camino encontró muchos amigos maravillosos.", ImageUrl = "/api/images/placeholder?page=3" },
+            new() { PageNumber = 4, Text = $"Al final, el {character} aprendió que la amistad lo es todo. ¡Fin!", ImageUrl = "/api/images/placeholder?page=4" }
         }
     };
 }

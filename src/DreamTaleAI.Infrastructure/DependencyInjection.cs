@@ -19,7 +19,6 @@ public static class DependencyInjection
             services.AddScoped<IVisionService, MockVisionService>();
             services.AddScoped<IStoryGeneratorService, MockStoryGeneratorService>();
             services.AddScoped<IImageGeneratorService, MockImageGeneratorService>();
-            services.AddScoped<ITextToSpeechService, MockTextToSpeechService>();
         }
         else
         {
@@ -34,7 +33,6 @@ public static class DependencyInjection
             services.AddScoped<IImageGeneratorService>(sp =>
                 new GeminiImageGeneratorService(sp.GetRequiredService<IHttpClientFactory>().CreateClient(), geminiKey));
 
-            services.AddScoped<ITextToSpeechService, MockTextToSpeechService>();
         }
 
         services.AddScoped<StoryOrchestrator>();

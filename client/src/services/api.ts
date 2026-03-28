@@ -12,7 +12,6 @@ export type StoryPage = {
   pageNumber: number;
   text: string;
   imageUrl: string;
-  audioUrl: string;
 }
 
 export type Story = {
