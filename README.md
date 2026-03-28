@@ -10,6 +10,8 @@ El niño dibuja su edad y un personaje, elige una emoción, y la app genera un c
 
 <img width="581" height="478" alt="image" src="https://github.com/user-attachments/assets/be2b51c8-532d-45e0-92cb-3da0ad60baaf" />
 
+[▶ Ver video demo](https://github.com/Josueyr/DreamTaleAI/releases/download/v1.0.0/Example.mkv)
+
 ---
 
 ## Flujo de la aplicación
